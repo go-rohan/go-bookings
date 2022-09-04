@@ -11,6 +11,11 @@
 
 A Reservation/Booking system written in Go.
 
+- Built in Go 1.19
+- Uses the [chi Router](https://github.com/go-chi/chi/v5)
+- alex edwards [SCS session management](https://github.com/alexedwards/scs/v2)
+- Uses [nosurf](https://github.com/justinas/nosurf)
+
 ## Getting Started <a name = "getting_started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
