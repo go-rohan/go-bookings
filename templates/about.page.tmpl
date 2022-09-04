@@ -1,0 +1,19 @@
+{{ template "base" .}}
+
+{{define "content"}}
+
+<div class="main-content">
+<h1>Shiva rules {{ index .StringMap "test" }}</h1>
+
+<p> 
+{{if ne (index .StringMap "remote_ip") "" }}
+
+Your remote ip address is {{ index .StringMap "remote_ip" }}
+{{else }}
+
+I dont know your ip address <a href="/">Home Page </a>
+{{end}}
+</p>
+</div>
+
+{{end}}
