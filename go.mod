@@ -1,4 +1,4 @@
-module github.com/go-rohan/go-reserve
+module github.com/go-rohan/go-bookings
 
 go 1.19
 

@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/go-rohan/go-reserve/pkg/config"
-	"github.com/go-rohan/go-reserve/pkg/handlers"
-	"github.com/go-rohan/go-reserve/pkg/render"
+	"github.com/go-rohan/go-bookings/pkg/config"
+	"github.com/go-rohan/go-bookings/pkg/handlers"
+	"github.com/go-rohan/go-bookings/pkg/render"
 )
 
 var portNumber = ":8080"

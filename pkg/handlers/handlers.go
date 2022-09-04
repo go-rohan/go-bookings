@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/go-rohan/go-reserve/pkg/config"
-	"github.com/go-rohan/go-reserve/pkg/models"
-	"github.com/go-rohan/go-reserve/pkg/render"
+	"github.com/go-rohan/go-bookings/pkg/config"
+	"github.com/go-rohan/go-bookings/pkg/models"
+	"github.com/go-rohan/go-bookings/pkg/render"
 )
 
 // holds the data sent from handlers and send it to the template
